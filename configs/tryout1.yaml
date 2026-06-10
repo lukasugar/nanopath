@@ -2,7 +2,7 @@
 # Use this for the merged full run without changing configs/main.yaml.
 
 project:
-  name: luka-merged
+  name: luka_tryout1
   family: nanopath
   recipe_id: dinov2-vits14-reg-jepa-mask10-tissue50-warm3-beta99
   output_dir: /data/$USER/nanopath/main/luka_merged
