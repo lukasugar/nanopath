@@ -1,7 +1,7 @@
 project:
-  name: JEPA-contig-patches
+  name: jepa-local126
   family: nanopath
-  recipe_id: dinov2-vits14-reg-jepa-mask10
+  recipe_id: dinov2-vits14-reg-jepa-local126
   output_dir: /data/$USER/nanopath/main/default
   wandb_dir: /data/$USER/nanopath/wandb
 
@@ -41,7 +41,7 @@ train:
   global_views: 2
   local_views: 8
   global_size: 224
-  local_size: 112
+  local_size: 126
   resume: null # optional explicit checkpoint path; null means always start fresh and wipe output_dir
 
 dino:
